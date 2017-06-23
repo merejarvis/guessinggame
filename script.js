@@ -28,7 +28,7 @@ function askForANumber () {
 function checkForGameover () {
   if (gameOver) {
     // DOM reveal restart button, function newGame()
-    var resetButton = document.createElement('button')
+    resetButton = document.createElement('button')
     resetButton.textContent = 'Start New Game'
     document.body.appendChild(resetButton)
     resetButton.addEventListener('click', newGame)
