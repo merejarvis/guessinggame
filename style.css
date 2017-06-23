@@ -24,7 +24,7 @@ p {
 
 .guesses {
   font-size: 40px;
-  color: yellow;
+  color: red;
 }
 
 span {
@@ -73,6 +73,6 @@ input[type='submit']:hover {
   background-color: #fff;
 }
 
-button:hover {
+/*button:hover {
       background-color: white;
-      color: black;
+      color: black;*/
